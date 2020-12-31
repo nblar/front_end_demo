@@ -1,0 +1,64 @@
+/*h3{
+    color: blue;
+}*/
+
+body{
+    background-color: chartreuse;
+    color: crimson;
+
+    /* This is modification
+    font-family: Arial, Helvetica, sans-serif; /* if arial can't load, Helvetica will load 
+    font-size: 30px;
+    font-weight: 600; /*controls degree of boldness*/
+
+
+    /*The hustle of above 3 can be avoided by including the following */
+
+    font:  600 30px Arial, Helvetica, sans-serif;
+    line-height: 1.5cm; /*used to increase spacing between the lines of text */
+
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+    border: 5px red solid;
+}
+
+.container{
+   width: 1000px;
+   margin: auto; /*Gives a margin from all sides automatically with size*/
+}
+
+.Categories{
+    width: fit-content;
+    margin-top: 10%;
+    border: 1px grey solid;
+    border-radius: 15px; /*Gives rounded borders to a container*/
+}
+
+
+
+.myform{
+    padding: 10%;
+}
+
+.myform input{ /*Adding [type="text"] infront of input will discard the excessive size of submit button*/
+    width: 100%;
+}
+
+.myform input[type="submit"]{
+    background-color: hotpink;
+    padding: 1%;
+}
+
+.myform input[type="submit"] :hover{
+    background-color: black;
+    padding: 1%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;/*Pushes the element side*/
+    
+}
